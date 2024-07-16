@@ -7,10 +7,12 @@
 # plan to add quiz + other games
 # maybe add games section?
 # random game support perhaps
+#16/07/24 - UPDATE
+# Began work on roshambo improvement, will take ~a day
 import time
 import random
 import sys
-clear = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+clear = ('\n'*40)
 whileloop=1
 print(clear)
 print(clear)
@@ -301,4 +303,3 @@ while total_loop == 1:
         print(clear)
         total_loop=0
         sys.exit()
-    e
